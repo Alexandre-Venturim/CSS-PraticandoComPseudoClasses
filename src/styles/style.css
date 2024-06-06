@@ -89,19 +89,21 @@ video {
 
 h2 {
     display: block;
-    font-size: 2.6vh;
-    margin: 2vh auto;
+    font-size: 3.1vh;
+    margin: 3.5vh auto;
     text-align: center;
-    
     font-weight: 600;
+    width: 80%;
 }
 
 .divMain {
-    width: 30vh;
-    margin: 20vh auto;
-    border: 2px solid rgb(231, 231, 238);
+    width: 42vh;
+    height: 36.5vh;
+    margin: 10vh auto;
+    border: 3px solid rgb(231, 231, 238);
     border-radius: 8px;
     padding: 5vh;
+    background-color: rgb(247, 248, 248);
 }
 
 .labelemail {
@@ -111,7 +113,7 @@ h2 {
 }
 
 form {
-    width: 100%;
+    width: 95%;
     display: block;
     margin: 5vh auto;
 }
@@ -120,9 +122,17 @@ form {
     display: block;
     margin-bottom: 3vh;
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border: 2px solid transparent;
+    padding: 2.5vh 0;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #E9ECEF;
+    font-weight: 500;
+}
 
+.inputemail:hover {
+    background-color: #DEE2E6;
 }
 
 .button {
@@ -131,8 +141,13 @@ form {
     color: #fff;
     border: 2px solid transparent;
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
-    padding: 1vh;
+    padding: 2.5vh;
     border-radius: 8px;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: #1864AB;
 }
