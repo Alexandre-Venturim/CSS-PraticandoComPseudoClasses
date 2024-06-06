@@ -86,3 +86,53 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+
+h2 {
+    display: block;
+    font-size: 2.6vh;
+    margin: 2vh auto;
+    text-align: center;
+    
+    font-weight: 600;
+}
+
+.divMain {
+    width: 30vh;
+    margin: 20vh auto;
+    border: 2px solid rgb(231, 231, 238);
+    border-radius: 8px;
+    padding: 5vh;
+}
+
+.labelemail {
+    display: block;
+    margin-bottom: 1vh;
+    font-size: 2.0vh;
+}
+
+form {
+    width: 100%;
+    display: block;
+    margin: 5vh auto;
+}
+
+.inputemail {
+    display: block;
+    margin-bottom: 3vh;
+    width: 100%;
+    background-color: aliceblue;
+    border: 2px solid transparent;
+
+}
+
+.button {
+    display: block;
+    background-color: #1971C2;
+    color: #fff;
+    border: 2px solid transparent;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1vh;
+    border-radius: 8px;
+}
